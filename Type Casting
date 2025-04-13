@@ -1,1 +1,19 @@
+# Take two numbers as strings, convert them to float, and perform addition, subtraction, multiplication, and division.
 
+a = input("Enter a value of a:")
+b = input("Enter a value of b:")
+print(type(a))
+print(type(b))
+c = float(a)
+d = float(b)
+print(type(c))
+print(type(d))
+print("Addition",c + d)
+print("Sub",c - d)
+print("mul",c * d)
+print("division",c/d)
+
+# Convert Celsius to Fahrenheit using the formula:
+Calsius = int(input("Enter a value of Cel:"))
+Fahrenheit = (Calsius * 9/5) + 32
+print(Fahrenheit)
