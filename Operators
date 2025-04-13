@@ -1,1 +1,13 @@
+# Modulo Practice:Ask the user for a number and print whether it is divisible by 5.
+num = int(input("Enter a number"))
+if(num % 5 == 0):
+   print("Is divisible of 5")
+else:
+   print("not divisible")
 
+# Simple Interest Calculator: Formula: SI = (P × R × T) / 100 ,Take principal, rate, and time as input.
+Prin = int(input("Enter a number for principle"))
+rate = int(input("Enter a number for rate"))
+time = int(input("Enter a number for time"))
+SI = (Prin * rate * time) / 100
+print("Simple Interest",SI) 
