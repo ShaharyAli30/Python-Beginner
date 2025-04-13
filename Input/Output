@@ -1,1 +1,13 @@
+# Personalized Greeting: Ask the user for their name and country. Print: Hello [name] from [country]!
+name = input("Enter your name:")
+country = input("Enter your country:")
+print("Hello", name,"from", country)
 
+
+# Average of 3 Numbers: Take three numbers from the user, calculate and display the average.
+
+a = int(input("Enter value of a:"))
+b = int(input("Enter value of b:"))
+c = int(input("Enter value of c:"))
+Avg = ( a + b + c)/3
+print( "Average", Avg)
